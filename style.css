@@ -11,7 +11,7 @@ body{
     overflow-x: hidden;
 }
 
-.header {
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -26,6 +26,9 @@ body{
     animation-iteration-count: infinite;
     animation-direction: alternate;
     font-size: 12px;
+    position: fixed;
+    top: 0;
+    transition: top 0.5s;
 }
 
 a{
@@ -114,7 +117,7 @@ a{
     .sessao{
         font-size: 15px;
     }
-    .header{
+    header{
         font-size: 6px;
         height: 50px;
     }
@@ -133,7 +136,7 @@ a{
     .sessao{
         font-size: 15px;
     }
-    .header{
+    header{
         font-size: 7px;
         height: 60px;
     }
@@ -152,7 +155,7 @@ a{
     .sessao{
         font-size: 18px;
     }
-    .header{
+    header{
         font-size: 8px;
         height: 70px;
     }
@@ -171,7 +174,7 @@ a{
     .sessao{
         font-size: 21px;
     }
-    .header{
+    header{
         font-size: 10px;
         height: 80px;
     }
@@ -190,7 +193,7 @@ a{
     .sessao{
         font-size: 24px;
     }
-    .header{
+    header{
         font-size: 12px;
         height: 90px;
     }

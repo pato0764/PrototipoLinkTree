@@ -8,6 +8,8 @@ body{
     background-color: rgb(17, 0, 0);
     color: rgb(255, 247, 208);
     max-width: 100vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     overflow-x: hidden;
 }
 
@@ -29,6 +31,7 @@ header {
     position: fixed;
     top: 0;
     transition: top 0.5s;
+    z-index: 100;
 }
 
 a{
@@ -78,6 +81,16 @@ a{
 #imagem{
     width: auto;
     height: auto;
+    border-radius: 32px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    transition: transform 0.25s;
+}
+
+#imagem:hover{
+    transform: scale(125%);
+    transition: transform 0.25s;
 }
 
 #texto{

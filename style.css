@@ -98,33 +98,10 @@ a{
     flex-direction: column;
 }
 
-/*.index {          //Exemplo de outro projeto
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    gap: 15px;
-    align-items: center;
-    padding-top: 5px;
-    width: 8vw;
-    height: 100vh;
-    transition: background-color 1.5s;
-    background-color: rgb(87, 195, 51);
-    color: rgb(20, 20, 20);
-    font-family: cursive;
-    font-size: 10px;
-}*/
-
-
-
 @keyframes backgroundhd {
     from { background-color: rgb(195, 185, 51);}
     to { background-color: rgb(218, 210, 106);}
 }
-
-/*#index:hover{         //Exemplo de outro projeto
-    transition: background-color 1.5s;
-    background-color: brown;
-}*/
 
 @media only screen and (max-width: 600px) {
     .sessao{

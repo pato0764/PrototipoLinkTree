@@ -76,6 +76,33 @@ a{
     transform: scale(105%);
     transition: transform 0.25s;
 }
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 100%;
+    width: 10%;
+    border-radius: 16px;
+}
+
+.slider:hover{
+    cursor: pointer;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    font-size: 100%;
+}
+
 .sessao {
     display: flex;
     flex-direction: row;

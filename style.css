@@ -63,7 +63,7 @@ a{
     height: 45px;
     border-radius: 16px;
     font-family: cursive;
-    font-size: 150%;
+    font-size: 1.3cqw;
     border-style: solid;
     border-color: white;
     border-width: 2px;
@@ -82,16 +82,16 @@ a{
     flex-direction: row;
     justify-items: center;
     align-items: center;
-    color: white;
-    background-color: black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(186, 186, 186);
     height: 100%;
     width: 10%;
-    border-radius: 16px;
     font-size: 11cqw;
 }
 
 .slider:hover{
     cursor: pointer;
+    background-color: rgb(144, 144, 144);
 }
 
 .info{
@@ -132,7 +132,6 @@ a{
     width: 65%;
     height: 75%;
     border-style: solid;
-    border-radius: 16px;
     border-color: whitesmoke;
     border-width: 1px;
 }
@@ -144,6 +143,32 @@ a{
     align-items: center;
     width: 100vw;
     height: 90vh;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 90%;
+    border-style: solid;
+    border-color: white;
+    border-radius: 16px;
+    border-width: 1px;
+    font-size: 4cqw;
+    
+}
+
+.flabel {
+    margin-top: 8cqh;
+}
+
+input, select {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 #imagem{

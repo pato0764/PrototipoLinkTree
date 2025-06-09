@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Participantes</title>
+    <title>Form</title>
     <base target="_blank">
 </head>
 <body>
@@ -23,18 +23,28 @@
         </a>
     </header>
     <div class="moldura">
-        <div class="quadro">
-            <button id="btnesquerda" class="slider">&lt;</button>
-            <p class="info" id="resultado"></p>
-            <button id="btndireita" class="slider">&gt;</button>
-        </div>
+        <form class="formulario" action="/index.html" method="POST">
+            <label class="flabel" for="email">E-mail</label>
+            <input type="email" id="email" name="email" required />
+
+            <label class="flabel" for="texto">Seu comentario</label>
+            <input type="text" id="texto" name="texto" />
+
+            <label class="flabel" for="nota">Nota</label>
+            <select id="nota" name="nota" required>
+                <option value="">selecione a nota</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>  
+            </select>
+            <button class="btn" type="submit">Comentar</button>
+        </form>
     </div>
     <footer>
         <a target="_self" href="index.html">
             <button class="btn">Voltar</button>
-        </a>
-        <a target="_self" href="form.html">
-            <button class="btn">Comente</button>
         </a>
     </footer>
     <script src="script.js"></script>
